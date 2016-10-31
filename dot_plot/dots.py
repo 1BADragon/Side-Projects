@@ -22,11 +22,11 @@ def scalePoint(point):
 
 def main():
     if len(sys.argv) < 2:
-        print("Needs a filename...fucker")
-        exit(69)
+        print("Needs a filename...")
+        exit(-1)
     if len(sys.argv) > 2:
-        print("Too many arguments...fucker")
-        exit(69)
+        print("Too many arguments...")
+        exit(-1)
     #create window
     win = GraphWin("My Circle", window, window)
     #create and draw circle
